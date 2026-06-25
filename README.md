@@ -1,4 +1,4 @@
-## Hi there 👋 This is Rakesh Kannepelli
+## HELLO there 👋 This is Rakesh Kannepelli
 
 # 💫 About Me:
 🔭 I'm currently working on<br>-Building AI/ML projects to apply what I'm learning<br><br>👯 I'm looking to collaborate on<br>-AI projects<br><br>🤝 I'm looking for help with<br>-Deploying AI applications and building real-world projects<br><br>🌱 I'm currently learning<br>-AI and ML<br><br>💬 Ask me about<br>Python, AI, Machine Learning<br><br>⚡ Fun fact<br>-AI handles the logic. I handle the magic.
