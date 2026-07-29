@@ -19,8 +19,8 @@ jobs:
         with:
           github_user_name: rakeshkannepelli
           outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?color_snake=%2300FF9C&color_dots=0,#161B22,50%25,#00FF9C,100%25,#00FF9C
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%2300FF9C&color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2300FF9C
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
