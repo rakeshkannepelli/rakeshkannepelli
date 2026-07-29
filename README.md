@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF9C&height=180&section=header&text=Rakesh%20Kannepelli&fontSize=42&fontColor=00FF9C&animation=fadeIn&fontAlignY=35)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=true&width=500&lines=Python+Developer;SQL+%2B+Database+Enthusiast;HTML+%7C+Web+Basics" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1000&pause=1500&color=00FF9C&center=true&vCenter=true&width=500&lines=Python+AND+AI;SQL+%2B+Database+Enthusiast;HTML+%7C+Web+Basics;Learning+%7C+AI+AND+ML" alt="Typing SVG" />
 
 </div>
 
