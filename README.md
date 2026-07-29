@@ -49,7 +49,8 @@
 <div align="center">
 
 ![Followers](https://img.shields.io/github/followers/rakeshkannepelli?style=for-the-badge&color=000000&labelColor=000000&logoColor=00FF9C&label=FOLLOWERS)
-![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rakeshkannepelli&label=REPOS&query=$.public_repos&style=for-the-badge&color=000000&labelColor=000000&logoColor=00FF9C)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Frakeshkannepelli&query=%24.public_repos&label=REPOS&style=for-the-badge&color=000000&labelColor=000000&logoColor=00FF9C)
+
 
 ![Streak](https://streak-stats.demolab.com/?user=rakeshkannepelli&theme=github-dark&hide_border=true&background=000000&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C)
 
