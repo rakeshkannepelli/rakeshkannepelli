@@ -1,26 +1,74 @@
-## HELLO there 👋 This is Rakesh Kannepelli
+<div align="center">
 
-# 💫 About Me:
-🔭 I'm currently working on<br>-Building AI/ML projects to apply what I'm learning<br><br>👯 I'm looking to collaborate on<br>-AI projects<br><br>🤝 I'm looking for help with<br>-Deploying AI applications and building real-world projects<br><br>🌱 I'm currently learning<br>-AI and ML<br><br>💬 Ask me about<br>Python, AI, Machine Learning<br><br>⚡ Fun fact<br>-AI handles the logic. I handle the magic.
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF9C&height=180&section=header&text=Rakesh%20Kannepelli&fontSize=42&fontColor=00FF9C&animation=fadeIn&fontAlignY=35)
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/ZwrQsP2v3) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakesh-kannepelli-50a456286/) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/32858435/rakesh-kannepelli) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rakeshkannepelli@gmail.com)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=true&width=500&lines=Python+Developer;SQL+%2B+Database+Enthusiast;HTML+%7C+Web+Basics" alt="Typing SVG" />
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=plastic&logo=Keras&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
+</div>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=rakeshkannepelli&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=rakeshkannepelli&theme=blue_navy&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=rakeshkannepelli&theme=blue_navy&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=rakeshkannepelli&theme=dark&no-frame=false&no-bg=false&margin-w=4)
+<br>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=rakeshkannepelli&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## Featured Build
 
----
-[![](https://komarev.com/ghpvc/?username=rakeshkannepelli&icon=0&color=0)](https://visitcount.itsvg.in)
+**R-Links** — a link manager to store and organize useful links in one place.
+`React` `Next.js` `FastAPI`
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+[`→ repo`](https://github.com/rakeshkannepelli/R-Links)
+
+<br>
+
+## Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FF9C)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=00FF9C)
+![NodeJS](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=00FF9C)
+![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=00FF9C)
+![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=00FF9C)
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=00FF9C)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=00FF9C)
+![Keras](https://img.shields.io/badge/Keras-000000?style=for-the-badge&logo=keras&logoColor=00FF9C)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=00FF9C)
+![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=00FF9C)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=plotly&logoColor=00FF9C)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=00FF9C)
+![Netlify](https://img.shields.io/badge/Netlify-000000?style=for-the-badge&logo=netlify&logoColor=00FF9C)
+![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=00FF9C)
+![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00FF9C)
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF9C)
+
+</div>
+
+<br>
+
+## Stats
+
+<div align="center">
+
+![Followers](https://img.shields.io/github/followers/rakeshkannepelli?style=for-the-badge&color=000000&labelColor=000000&logoColor=00FF9C&label=FOLLOWERS)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/rakeshkannepelli&label=REPOS&query=$.public_repos&style=for-the-badge&color=000000&labelColor=000000&logoColor=00FF9C)
+
+![Streak](https://streak-stats.demolab.com/?user=rakeshkannepelli&theme=github-dark&hide_border=true&background=000000&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C)
+
+</div>
+
+## Activity
+
+<div align="center">
+
+![Snake](https://raw.githubusercontent.com/rakeshkannepelli/rakeshkannepelli/output/github-contribution-grid-snake-dark.svg)
+
+</div>
+
+## Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF9C)](https://www.linkedin.com/in/rakesh-kannepelli-50a456286/)
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00FF9C)](mailto:rakeshkannepelli@gmail.com)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-000000?style=for-the-badge&logo=stackoverflow&logoColor=00FF9C)](https://stackoverflow.com/users/32858435/rakesh-kannepelli)
+
+</div>
