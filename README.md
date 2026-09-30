@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00D9FF&height=180&section=header&text=Rakesh%20Kannepelli&fontSize=42&fontColor=00D9FF&animation=fadeIn&fontAlignY=35)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1000&pause=1500&color=00D9FF&center=true&vCenter=true&width=500&lines=Python+AND+AI;NLP+%2B+Generative+AI;AI-Assisted+Development;Learning+%7C+AI+AND+ML" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1000&pause=1500&color=00D9FF&center=true&vCenter=true&width=500&lines=Python+AND+AI;NLP+%2B+Generative+AI;AI-Assisted+Development;Machine+Learning+Engineer" alt="Typing Animation" />
 
 </div>
 
@@ -17,14 +17,6 @@
 `Python` `HTML` `CSS` `Antigravity Agent`
 
 [`→ R-Links repo`](https://github.com/rakeshkannepelli/R-Links)
-
-<br>
-
-## Activity
-
-<p align="center">
-  <img src="assets/contrib-map.svg" alt="Contribution map" width="100%" />
-</p>
 
 <br>
 
@@ -62,10 +54,6 @@
 
 <br>
 
-</div>
-
-<br>
-
 ## Stats
 
 <div align="center">
@@ -79,14 +67,22 @@
 
 <br>
 
+## Activity
 
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rakeshkannepelli&theme=react-dark&bg_color=000000&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true)
+
+</div>
+
+<br>
 
 ## Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00D9FF)](https://www.linkedin.com/in/rakesh-kannepelli-50a456286/)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00D9FF)](mailto:rakeshkannepelli@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=00D9FF)](https://leetcode.com/rakeshkannepelli)
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />](https://www.linkedin.com/in/rakesh-kannepelli-50a456286/)
+[<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />](mailto:rakeshkannepelli@gmail.com)
+[<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />](https://leetcode.com/rakeshkannepelli)
 
 </div>
