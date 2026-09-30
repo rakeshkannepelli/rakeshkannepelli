@@ -1,169 +1,89 @@
-<svg viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
-      
-      .letter {
-        font-family: 'Courier Prime', monospace;
+      .name {
+        font-family: "Courier New", monospace;
         font-size: 48px;
         font-weight: 700;
         fill: #00D9FF;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
       }
-      
-      .underline {
+      .line {
         stroke: #00D9FF;
         stroke-width: 3;
         stroke-linecap: round;
+        fill: none;
       }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="1000" height="200" fill="#0D1117"/>
+  <rect width="1200" height="220" fill="#0D1117" />
 
-  <!-- Animated letters with cinematic underline effect -->
-  <g class="letter-container">
+  <g id="nameGroup">
+
     <!-- R -->
-    <text x="150" y="100" class="letter" opacity="0">
-      R
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="150" y1="115" x2="150" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="150;170;170;150" keyTimes="0;0.08;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="50" y="115" class="name" opacity="0">R<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.15;0.22" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="50" y1="132" x2="50" y2="132" class="line" opacity="0"><animate attributeName="x2" values="50;78;78;50" keyTimes="0;0.06;0.15;0.22" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.15;0.22" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- A -->
-    <text x="200" y="100" class="letter" opacity="0">
-      A
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="200" y1="115" x2="200" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="200;220;220;200" keyTimes="0;0.15;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="95" y="115" class="name" opacity="0">A<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.21;0.28" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="95" y1="132" x2="95" y2="132" class="line" opacity="0"><animate attributeName="x2" values="95;123;123;95" keyTimes="0;0.12;0.21;0.28" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.21;0.28" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- K -->
-    <text x="250" y="100" class="letter" opacity="0">
-      K
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.19;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="250" y1="115" x2="250" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="250;270;270;250" keyTimes="0;0.22;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.19;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="140" y="115" class="name" opacity="0">K<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.18;0.27;0.34" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="140" y1="132" x2="140" y2="132" class="line" opacity="0"><animate attributeName="x2" values="140;168;168;140" keyTimes="0;0.18;0.27;0.34" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.18;0.27;0.34" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- E -->
-    <text x="300" y="100" class="letter" opacity="0">
-      E
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.26;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="300" y1="115" x2="300" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="300;320;320;300" keyTimes="0;0.29;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.26;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="185" y="115" class="name" opacity="0">E<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.24;0.33;0.40" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="185" y1="132" x2="185" y2="132" class="line" opacity="0"><animate attributeName="x2" values="185;213;213;185" keyTimes="0;0.24;0.33;0.40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.24;0.33;0.40" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- S -->
-    <text x="350" y="100" class="letter" opacity="0">
-      S
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.33;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="350" y1="115" x2="350" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="350;370;370;350" keyTimes="0;0.36;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.33;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="230" y="115" class="name" opacity="0">S<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.30;0.39;0.46" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="230" y1="132" x2="230" y2="132" class="line" opacity="0"><animate attributeName="x2" values="230;258;258;230" keyTimes="0;0.30;0.39;0.46" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.30;0.39;0.46" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- H -->
-    <text x="420" y="100" class="letter" opacity="0">
-      H
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="420" y1="115" x2="420" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="420;440;440;420" keyTimes="0;0.43;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="275" y="115" class="name" opacity="0">H<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.36;0.45;0.52" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="275" y1="132" x2="275" y2="132" class="line" opacity="0"><animate attributeName="x2" values="275;303;303;275" keyTimes="0;0.36;0.45;0.52" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.36;0.45;0.52" dur="7s" repeatCount="indefinite"/></line>
 
-    <!-- Space -->
-
-    <!-- K -->
-    <text x="500" y="100" class="letter" opacity="0">
-      K
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.47;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="500" y1="115" x2="500" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="500;520;520;500" keyTimes="0;0.5;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.47;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <!-- K (second word) -->
+    <text x="360" y="115" class="name" opacity="0">K<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.42;0.51;0.58" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="360" y1="132" x2="360" y2="132" class="line" opacity="0"><animate attributeName="x2" values="360;388;388;360" keyTimes="0;0.42;0.51;0.58" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.42;0.51;0.58" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- A -->
-    <text x="550" y="100" class="letter" opacity="0">
-      A
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.54;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="550" y1="115" x2="550" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="550;570;570;550" keyTimes="0;0.57;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.54;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="405" y="115" class="name" opacity="0">A<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.48;0.57;0.64" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="405" y1="132" x2="405" y2="132" class="line" opacity="0"><animate attributeName="x2" values="405;433;433;405" keyTimes="0;0.48;0.57;0.64" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.48;0.57;0.64" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- N -->
-    <text x="600" y="100" class="letter" opacity="0">
-      N
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.61;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="600" y1="115" x2="600" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="600;620;620;600" keyTimes="0;0.64;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.61;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="450" y="115" class="name" opacity="0">N<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.54;0.63;0.70" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="450" y1="132" x2="450" y2="132" class="line" opacity="0"><animate attributeName="x2" values="450;478;478;450" keyTimes="0;0.54;0.63;0.70" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.54;0.63;0.70" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- N -->
-    <text x="650" y="100" class="letter" opacity="0">
-      N
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.68;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="650" y1="115" x2="650" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="650;670;670;650" keyTimes="0;0.71;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.68;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="495" y="115" class="name" opacity="0">N<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.60;0.69;0.76" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="495" y1="132" x2="495" y2="132" class="line" opacity="0"><animate attributeName="x2" values="495;523;523;495" keyTimes="0;0.60;0.69;0.76" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.60;0.69;0.76" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- E -->
-    <text x="700" y="100" class="letter" opacity="0">
-      E
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.75;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="700" y1="115" x2="700" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="700;720;720;700" keyTimes="0;0.78;0.8;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.75;0.8;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="540" y="115" class="name" opacity="0">E<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.66;0.75;0.82" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="540" y1="132" x2="540" y2="132" class="line" opacity="0"><animate attributeName="x2" values="540;568;568;540" keyTimes="0;0.66;0.75;0.82" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.66;0.75;0.82" dur="7s" repeatCount="indefinite"/></line>
+
+    <!-- P -->
+    <text x="585" y="115" class="name" opacity="0">P<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.72;0.81;0.88" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="585" y1="132" x2="585" y2="132" class="line" opacity="0"><animate attributeName="x2" values="585;613;613;585" keyTimes="0;0.72;0.81;0.88" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.72;0.81;0.88" dur="7s" repeatCount="indefinite"/></line>
+
+    <!-- E -->
+    <text x="630" y="115" class="name" opacity="0">E<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.78;0.87;0.94" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="630" y1="132" x2="630" y2="132" class="line" opacity="0"><animate attributeName="x2" values="630;658;658;630" keyTimes="0;0.78;0.87;0.94" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.78;0.87;0.94" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- L -->
-    <text x="750" y="100" class="letter" opacity="0">
-      L
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.82;0.85;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="750" y1="115" x2="750" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="750;770;770;750" keyTimes="0;0.82;0.85;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.82;0.85;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="675" y="115" class="name" opacity="0">L<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.84;0.93;1" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="675" y1="132" x2="675" y2="132" class="line" opacity="0"><animate attributeName="x2" values="675;703;703;675" keyTimes="0;0.84;0.93;1" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.84;0.93;1" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- L -->
-    <text x="800" y="100" class="letter" opacity="0">
-      L
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.85;0.88;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="800" y1="115" x2="800" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="800;820;820;800" keyTimes="0;0.85;0.88;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.85;0.88;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="720" y="115" class="name" opacity="0">L<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.90;0.97;1" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="720" y1="132" x2="720" y2="132" class="line" opacity="0"><animate attributeName="x2" values="720;748;748;720" keyTimes="0;0.90;0.97;1" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.90;0.97;1" dur="7s" repeatCount="indefinite"/></line>
 
     <!-- I -->
-    <text x="850" y="100" class="letter" opacity="0">
-      I
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.88;0.92;1" dur="6s" repeatCount="indefinite"/>
-    </text>
-    <line x1="850" y1="115" x2="850" y2="115" class="underline" opacity="0">
-      <animate attributeName="x2" values="850;870;870;850" keyTimes="0;0.88;0.92;1" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.88;0.92;1" dur="6s" repeatCount="indefinite"/>
-    </line>
+    <text x="765" y="115" class="name" opacity="0">I<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.96;0.99;1" dur="7s" repeatCount="indefinite"/></text>
+    <line x1="765" y1="132" x2="765" y2="132" class="line" opacity="0"><animate attributeName="x2" values="765;793;793;765" keyTimes="0;0.96;0.99;1" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.96;0.99;1" dur="7s" repeatCount="indefinite"/></line>
+
   </g>
 </svg>
