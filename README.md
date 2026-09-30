@@ -20,6 +20,14 @@
 
 <br>
 
+## Activity
+
+<p align="center">
+  <img src="assets/contrib-map.svg" alt="Contribution map" width="100%" />
+</p>
+
+<br>
+
 ## Tech Stack
 
 <div align="center">
@@ -71,15 +79,7 @@
 
 <br>
 
-## Activity
 
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rakeshkannepelli&theme=react-dark&bg_color=000000&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true)
-
-</div>
-
-<br>
 
 ## Connect
 
