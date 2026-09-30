@@ -28,9 +28,7 @@
 <br>
 
 <p align="center">
-  
   <img src="assets/contrib-map.svg" alt="Contribution map" width="100%" />
-  
 </p>
 
 <br>
