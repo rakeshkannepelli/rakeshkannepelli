@@ -1,0 +1,34 @@
+name: Contribution Map
+
+on:
+  schedule:
+    - cron: "30 18 * * *"
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/generate-map.mjs
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate map
+        run: node scripts/generate-map.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/contrib-map.svg
+          git commit -m "update contribution map" || exit 0
+          git push
