@@ -136,20 +136,51 @@ function streaks(days) {
 }
 
 // ---------- animation helper ----------
-// pts: [[seconds, value, easingToNextPoint?], ...]  -> one looping SMIL animation
+// Easing is calculated here and written out as plain keyframes, so the SVG only uses
+// simple linear animation (works in every browser).
+function bezier(x1, y1, x2, y2, t) {
+  const cx = 3 * x1, bx = 3 * (x2 - x1) - cx, ax = 1 - cx - bx;
+  const cy = 3 * y1, by = 3 * (y2 - y1) - cy, ay = 1 - cy - by;
+  let s = t;
+  for (let i = 0; i < 8; i++) {
+    const x = ((ax * s + bx) * s + cx) * s - t;
+    const d = (3 * ax * s + 2 * bx) * s + cx;
+    if (Math.abs(x) < 1e-5 || Math.abs(d) < 1e-6) break;
+    s -= x / d;
+  }
+  s = Math.min(1, Math.max(0, s));
+  return ((ay * s + by) * s + cy) * s;
+}
+function lerp(a, b, k) {
+  if (typeof a === "number") return +(a + (b - a) * k).toFixed(3);
+  const [ax, ay] = a.split(" ").map(Number), [bx, by] = b.split(" ").map(Number);
+  return `${(ax + (bx - ax) * k).toFixed(1)} ${(ay + (by - ay) * k).toFixed(1)}`;
+}
+// pts: [[seconds, value, easingToNextPoint?], ...]  -> one looping animation
 function anim(tag, attrs, pts) {
   const list = pts.map((p) => p.slice());
   if (list[0][0] > 0) list.unshift([0, list[0][1]]);
   if (list[list.length - 1][0] < D) list.push([D, list[list.length - 1][1]]);
+  const out = [];
+  for (let i = 0; i < list.length; i++) {
+    out.push([list[i][0], list[i][1]]);
+    if (list[i][2] && i < list.length - 1) {
+      const [x1, y1, x2, y2] = list[i][2].split(" ").map(Number);
+      const [t0, v0] = list[i], [t1, v1] = list[i + 1];
+      for (let k = 1; k <= 8; k++) {
+        const u = k / 9;
+        out.push([t0 + (t1 - t0) * u, lerp(v0, v1, bezier(x1, y1, x2, y2, u))]);
+      }
+    }
+  }
   let last = -1;
-  const times = list.map(([t]) => {
+  const times = out.map(([t]) => {
     let k = Math.min(1, t / D);
     if (k <= last) k = last + 0.00004;
     last = k;
     return Math.min(1, k).toFixed(5);
   });
-  const splines = list.slice(0, -1).map((p) => p[2] || "0 0 1 1").join(";");
-  return `<${tag} ${attrs} dur="${D}s" repeatCount="indefinite" calcMode="spline" keyTimes="${times.join(";")}" values="${list.map((p) => p[1]).join(";")}" keySplines="${splines}"/>`;
+  return `<${tag} ${attrs} dur="${D}s" repeatCount="indefinite" keyTimes="${times.join(";")}" values="${out.map((p) => p[1]).join(";")}"/>`;
 }
 const EASE_MOVE = "0.55 0 0.2 1";
 const EASE_POP = "0.34 1.56 0.64 1";
@@ -323,7 +354,7 @@ function build(cal) {
     // the letter: fades in, pops, waits on its building, then flies to its place in the title
     title += `<g opacity="0" filter="url(#glow)">${opacityAnim([[a, 0], [a + 0.12, 1], [T_FADE, 1], [T_FADE + 1.5, 0]])}`
       + `<g transform="translate(${from})">${anim("animateTransform", 'attributeName="transform" type="translate"', [[a, from], [ASSEMBLE ? p1 : D, from, EASE_MOVE], [ASSEMBLE ? p2 : D, to]])}`
-      + `<g transform="scale(0)">${anim("animateTransform", 'attributeName="transform" type="scale"', [[a, 0, EASE_POP], [a + 0.4, s0], [ASSEMBLE ? p1 : D, s0, EASE_MOVE], [ASSEMBLE ? p2 : D, s1]])}`
+      + `<g transform="scale(1)">${anim("animateTransform", 'attributeName="transform" type="scale"', [[a, 0, EASE_POP], [a + 0.4, s0], [ASSEMBLE ? p1 : D, s0, EASE_MOVE], [ASSEMBLE ? p2 : D, s1]])}`
       + `<text text-anchor="middle" fill="#eaf6ff" font-family="'Trajan Pro','Cinzel',Georgia,'Times New Roman',serif" font-size="${TITLE_SIZE}" font-weight="700">${L.ch}</text></g></g></g>`;
   });
   if (ASSEMBLE) {
