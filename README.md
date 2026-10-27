@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00D9FF&height=180&section=header&text=Rakesh%20Kannepelli&fontSize=42&fontColor=00D9FF&animation=fadeIn&fontAlignY=35)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1000&pause=1500&color=00D9FF&center=true&vCenter=true&width=500&lines=Python+AND+AI;NLP+%2B+Generative+AI;AI-Assisted+Development;Machine+Learning+Engineer" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=1000&pause=1500&color=00D9FF&center=true&vCenter=true&width=500&lines=Python+AND+SQL;NLP+%2B+Generative+AI;AI-Assisted+Development;AI+AND+Machine+Learning+Engineer" alt="Typing Animation" />
 
 </div>
 
