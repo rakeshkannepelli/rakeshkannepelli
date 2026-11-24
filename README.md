@@ -16,7 +16,7 @@
 **R-Links** — local full-stack link manager web app, built with AI-assisted development.
 `Python` `HTML` `CSS` `Antigravity Agent`
 
-[`→ R-Links repo`](https://github.com/rakeshkannepelli/R-Links)
+[`-> R-Links repo`](https://github.com/rakeshkannepelli/R-Links)
 
 <br>
 
